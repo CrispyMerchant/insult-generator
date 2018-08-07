@@ -1,0 +1,22 @@
+{
+  "name": "pro1insultgenerator",
+  "version": "1.0.0",
+  "description": "An easy to use generator of shakespearian insults.",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePieTheory/insult-generator.git"
+  },
+  "keywords": [
+    "generator"
+  ],
+  "author": "ThePieTheory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThePieTheory/insult-generator/issues"
+  },
+  "homepage": "https://github.com/ThePieTheory/insult-generator#readme"
+}
