@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script type="text/javascript" src="script.js"></script>
     <meta charset="UTF-8">
     <title>Random Insult Gen</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=MedievalSharp|Sunflower:300" rel="stylesheet">
 
 </head>
 <body>
     <header>
-
+        <ul>
+            <li><a href="#">Other Generators</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
     </header>
 
     <div id="content">
-        
-        <div id="insult-input">
-            <input id="insult" type="text" name"insult" />
+        <div id="logo">
+
+        </div>
+        <div id="insult-display" >
         </div>
 
         <div id="generate-button">
-            <input type="button" class="button" name="insult" value="Generate Insult" />
+            <input type="button" class="button" name="hurt" value="Generate Insult" onclick="randomGen()" />
         </div>
 
     </div>
-    
+
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="insults.js"></script>
 </body>
 </html>
