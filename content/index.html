@@ -4,25 +4,43 @@
     <meta charset="UTF-8">
     <title>Random Insult Gen</title>
     <link href="styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=MedievalSharp|Sunflower:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Almendra+SC|Sunflower:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="#">Other Generators</a></li>
-            <li><a href="#">Home</a></li>
-        </ul>
-    </header>
+    <div id="navbar">
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="sidenavOptions">
+                <a href="#">Home</a>
+                <a href="#">R.I.G</a>
+                <a href="#">FaQ</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="logo" href=""></div>  
+              
+        <div class="navbar-left">
+            <ul>
+                    <span style="font-size:30px;cursor:pointer;color:#f2f2f2" onclick="openNav()">&#9776; </span>
+                <li><a href="#">Other Generators</a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <ul>
+                <li><a href="#"><i class="fas fa-cog"></i></a></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
+        </div>   
+    </div>
+
 
     <div id="content">
-        <div id="logo">
 
-        </div>
-        <div id="insult-display" >
-        </div>
+        <div id="insult-display">Press the generate button for a new insult!</div>
 
-        <div id="generate-button">
+        <div class="generate-button">
             <input type="button" class="button" name="hurt" value="Generate Insult" onclick="randomGen()" />
         </div>
 
@@ -32,5 +50,7 @@
 
     </footer>
     <script type="text/javascript" src="insults.js"></script>
+    <script type="text/javascript" src="navbar.js"></script>
+    <script type="text/javascript" src="sidenav.js"></script>
 </body>
 </html>
